@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=2, initial-scale=1.0">
+        <meta name="description" content="Página web de blog de café">
+        <!--Prefetch-->
+        <!--técnica de optimización de rendimiento que consiste en solicitar de manera previa (prefetch) ciertos recursos del sitio web 
+            para acelerar su carga. A diferencia del Preload, que carga los recursos de manera anticipada, el Prefetch los solicita de manera 
+            anticipada, lo que significa que el navegador comienza a descargar los recursos antes de que el usuario los necesite.-->
+        <link rel="prefetch" href="nosotros.html" as="document">
+        <!--Preload-->
+        <!--preload consiste en cargar de forma previa (preload) ciertos recursos que conforman el sitio web
+                 para que estén disponibles de manera inmediata cuando el usuario los requiera. .-->
+        <link rel="preload" href="/css/style.css" as="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="preload" href="/css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!--Google Fonts-->
+        <link rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+            crossorigin="crossorigin" as="fonts">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
+
+        <title>Tipos de Granos</title>
+    </head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contácto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de Café con Consejos y Cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+
+        </div>
+    </header><!--.header -->
+    <div class="contenedor">
+        <h3 class="centrar-texto">Tipos de Granos de Café</h3>
+        <div class="entrada">
+            <div class="entrada__imagen">
+                <img src="/img/blog1.jpg" alt="imagen nosotros">
+            </div>
+            <div class="entrada__texto">
+                <div>
+                    <p>En esta sección te invitamos a explorar la riqueza y diversidad de los granos de café. En nuestro
+                        universo,
+                        encontrarás desde el elegante Arábica hasta el fuerte Robusta, cada uno con su carácter único
+                        que se refleja en cada taza que servimos.
+
+                        Sumérgete en la suavidad del Arábica, conocido por sus notas florales y perfil equilibrado, o
+                        despierta tus sentidos con el Robusta, que aporta un toque audaz y amargo a tu experiencia
+                        cafetera. Nuestra selección incluye joyas como el Colombian, que te llevará a un viaje sensorial
+                        con sus matices exquisitos, o el Ethiopian, que te sorprenderá con sus notas afrutadas y
+                        exuberantes.
+
+                        En nuestra página, te ofrecemos más que café; te invitamos a un viaje de descubrimiento, donde
+                        cada grano cuenta una historia única. Explora nuestras variedades, aprende sobre sus orígenes y
+                        descubre cómo elegir el grano adecuado puede transformar por completo tu experiencia de
+                        disfrutar una buena taza de café.
+
+                        Convierte cada momento cafetero en una experiencia memorable con nosotros. ¡Bienvenido a nuestro
+                        apasionante mundo de granos de café!</p>
+
+                    <p>Aunque existen literalmente cientos de variedades de café para deleitar nuestras papilas
+                        gustativas, todos los granos de café que se cultivan se dividen en uno de los cuatro tipos
+                        principales:</p>
+
+                    <ul>
+                        <li><a href="#arabica">Arabica</a></li>
+                        <li><a href="#robusta"> Robusta</a></li>
+                        <li><a href="#liberica">Liberica</a></li>
+                        <li><a href="#excelsa">Excelsa</a></li>
+                    </ul>
+
+                    <div id="arabica">
+                        <h3>Arabica para un suave dulzor</h3>
+
+                        <p>El Arabica es, con diferencia, el tipo de café más popular. Más de la mitad de la producción
+                            mundial de café se produce en plantas de Arabica. Incluso podría tratarse del primer grano
+                            de
+                            café que se haya consumido, que se remonta a Etiopía en torno al año 1000 a. de C.
+
+                            Estos granos de café son conocidos por su sabor suave, con toques de chocolate, caramelo,
+                            frutos
+                            secos y bayas. Existen muchos subtipos de café Arabica, pero es apreciado debido a su
+                            contenido
+                            de cafeína relativamente bajo, combinado con sus elevados azúcares y sabores naturales.
+
+                            Muchos expertos coinciden en que el Arabica es el mejor café para tomarlo solo (o con el un
+                            mínimo toque de leche), ya sea usando una cafetera de goteo o una cafetera espresso en casa.
+                        </p>
+                    </div>
+                    <div id="robusta">
+                        <h3>Robusta para mayor intensidad y fuerza</h3>
+                        <p>Robusta es el segundo café más producido del mundo. Este grano es originario del África
+                            subsahariana, pero puede cultivarse en casi cualquier lugar. Es una planta dura y resistente
+                            que sin duda hace honor a su nombre.
+
+                            El grano Robusta tiene un sabor más duro y amargo, y un contenido de cafeína más elevado que
+                            el Arabica. Su sabor único se describe a menudo como terroso o amaderado.
+
+                            El fuerte grano Robusta es ideal para el espresso, ya que proporciona una crema rica y
+                            deliciosa, espesa y sabrosa. Si te gusta la crema, Robusta es la variedad de café perfecta
+                            para ti.
+                        </p>
+                    </div>
+                    <div id="liberica">
+                        <h3>Liberica para un sabor ahumado y especiado</h3>
+                        <p>La variedad Liberica ocupa el tercer lugar, pero estos granos pueden ser caros y difíciles de
+                            encontrar fuera de África central y occidental y del sudeste asiático.
+
+                            Sus granos tienen una forma irregular y son mucho más grandes que los granos de Arabica o
+                            Robusta. Su sabor es ahumado, con notas de madera y nuez, con matices de bayas y especias.
+                            Por sí sola, la mejor forma de preparar el Liberica es en una máquina de café de filtro,
+                            solo o con azúcar.
+
+                            Si consigues hacerte con este café poco común, prueba a mezclarlo con Arabica para obtener
+                            un espresso con un toque distintivo. Es una excelente base para un café con leche o
+                            capuchino especial con espuma de leche.
+                        </p>
+                    </div>
+                    <div id="excelsa">
+                        <h3>Excelsa</h3>
+                        <p>Los granos de la variedad Excelsa se cultivan principalmente en el sudeste asiático y son
+                            bastante difíciles de conseguir. Aunque en realidad forma parte de la familia Liberica, el
+                            Excelsa es en gran medida un grano propio.
+
+                            Los granos con forma de almendra producen un sabor ácido, afrutado y complejo tanto de café
+                            tostado claro como oscuro.
+
+                            Puedes preparar una taza de excelente café con el método de goteo o de vertido, pero una
+                            prensa francesa también funciona bien. Y, al igual que el Liberica, va genial en mezcla:
+                            añade un toque misterioso y abre una enorme variedad de sabores intrigantes con los que
+                            experimentar en casa.
+
+                            Descubre diferentes tipos de café
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

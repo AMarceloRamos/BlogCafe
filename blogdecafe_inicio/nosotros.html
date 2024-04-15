@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=2, initial-scale=1.0">
+    <meta name="description" content="Página web de blog de café">
+     <!--Prefetch-->
+        <!--técnica de optimización de rendimiento que consiste en solicitar de manera previa (prefetch) ciertos recursos del sitio web 
+        para acelerar su carga. A diferencia del Preload, que carga los recursos de manera anticipada, el Prefetch los solicita de manera 
+        anticipada, lo que significa que el navegador comienza a descargar los recursos antes de que el usuario los necesite.-->
+        <link rel="prefetch" href="nosotros.html" as="document">
+        <!--Preload-->
+        <!--preload consiste en cargar de forma previa (preload) ciertos recursos que conforman el sitio web
+             para que estén disponibles de manera inmediata cuando el usuario los requiera. .-->
+    <link rel="preload" href="css/style.css" as="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Google Fonts-->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="fonts">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Nosotros</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contácto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de cafe con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+
+        </div>
+    </header>
+    <main class="contenedor">
+        <h3 class="centra-texto">Sobre Nosotros</h3>
+        <div class="sobre-nosotros">
+            <div class="sobre-nosotros__imagen">
+                <img src="/img/nosotros.jpg" alt="imagen nosotros">
+            </div>
+            <div class="sobre-nosotros__texto">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, vitae rerum possimus blanditiis
+                        totam unde ut saepe facere non beatae commodi harum optio excepturi laborum iste odio aspernatur
+                        accusantium neque?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nesciunt labore dolorum
+                        laborum
+                        aperiam vel earum repellendus iste odit, obcaecati est blanditiis? Quisquam nobis dolor maiores
+                        exercitationem commodi doloribus eveniet.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, rerum odio facilis quo
+                        molestiae veritatis sequi sint saepe ducimus qui numquam quis rem at corporis aut voluptatibus
+                        ratione aliquid aliquam?</p>
+                    <p>Illum quam mollitia error facere perspiciatis itaque, architecto sapiente perferendis laudantium
+                        totam vitae, deleniti eum quas voluptatum, incidunt dolorum ex minus sit eius! Et quod expedita
+                        molestiae itaque odio distinctio!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam reprehenderit, tenetur
+                        expedita
+                        asperiores qui aliquam quia inventore error pariatur voluptatum dolore delectus velit neque
+                        magni?
+                        In ad possimus repellat reprehenderit!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio deleniti ipsum at officiis.
+                        Nihil recusandae aliquam iusto culpa illum nisi eum laudantium quod veritatis magni mollitia
+                        nulla,
+                        inventore consectetur maxime.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contácto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>
